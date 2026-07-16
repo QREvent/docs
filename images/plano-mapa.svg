@@ -1,0 +1,62 @@
+<svg viewBox="0 0 900 470" xmlns="http://www.w3.org/2000/svg" font-family="Inter, ui-sans-serif, system-ui, sans-serif" role="img" aria-label="Mapa del venue: escenario, zonas, asientos y servicios">
+  <defs>
+    <clipPath id="r"><rect width="900" height="470" rx="20"/></clipPath>
+    <linearGradient id="vip" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f59e0b"/><stop offset="1" stop-color="#d97706"/></linearGradient>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect width="900" height="470" fill="#0f1629"/>
+    <!-- grid sutil -->
+    <g stroke="#26304d" stroke-width="1" opacity="0.5">
+      <path d="M0 40 H900 M0 100 H900 M0 160 H900 M0 220 H900 M0 280 H900 M0 340 H900 M0 400 H900"/>
+      <path d="M60 0 V470 M180 0 V470 M300 0 V470 M420 0 V470 M540 0 V470 M660 0 V470 M780 0 V470"/>
+    </g>
+
+    <!-- Escenario -->
+    <rect x="230" y="26" width="440" height="52" rx="10" fill="#1e293b" stroke="#3b4a6b"/>
+    <text x="450" y="58" text-anchor="middle" fill="#cbd5e1" font-size="18" font-weight="700" letter-spacing="2">ESCENARIO</text>
+
+    <!-- VIP con asientos -->
+    <rect x="300" y="96" width="300" height="96" rx="12" fill="url(#vip)"/>
+    <text x="450" y="120" text-anchor="middle" fill="#fff" font-size="15" font-weight="800">VIP FRONT STAGE</text>
+    <g fill="#fff8e7">
+      <g>
+        <circle cx="330" cy="150" r="6"/><circle cx="360" cy="150" r="6"/><circle cx="390" cy="150" r="6"/><circle cx="420" cy="150" r="6"/><circle cx="450" cy="150" r="6"/><circle cx="480" cy="150" r="6"/><circle cx="510" cy="150" r="6"/><circle cx="540" cy="150" r="6"/><circle cx="570" cy="150" r="6"/>
+      </g>
+      <g>
+        <circle cx="330" cy="172" r="6"/><circle cx="360" cy="172" r="6"/><circle cx="390" cy="172" r="6"/><circle cx="420" cy="172" r="6"/><circle cx="450" cy="172" r="6"/><circle cx="480" cy="172" r="6"/><circle cx="510" cy="172" r="6"/><circle cx="540" cy="172" r="6"/><circle cx="570" cy="172" r="6"/>
+      </g>
+    </g>
+
+    <!-- Campo general -->
+    <rect x="230" y="210" width="440" height="150" rx="12" fill="#2563eb" opacity="0.30" stroke="#3b82f6"/>
+    <text x="450" y="282" text-anchor="middle" fill="#dbeafe" font-size="17" font-weight="800">CAMPO GENERAL</text>
+    <text x="450" y="304" text-anchor="middle" fill="#93b4f7" font-size="13">1500 lugares</text>
+
+    <!-- Barras (servicio) -->
+    <rect x="60" y="150" width="120" height="150" rx="12" fill="#16a34a" opacity="0.85"/>
+    <text x="120" y="230" text-anchor="middle" fill="#fff" font-size="15" font-weight="800">BARRA</text>
+    <rect x="720" y="150" width="120" height="150" rx="12" fill="#16a34a" opacity="0.85"/>
+    <text x="780" y="230" text-anchor="middle" fill="#fff" font-size="15" font-weight="800">BARRA</text>
+
+    <!-- Platea (sección con asientos) -->
+    <rect x="230" y="378" width="200" height="70" rx="12" fill="#7c3aed" opacity="0.35" stroke="#a78bfa"/>
+    <g fill="#ddd6fe"><circle cx="256" cy="404" r="5"/><circle cx="278" cy="404" r="5"/><circle cx="300" cy="404" r="5"/><circle cx="322" cy="404" r="5"/><circle cx="344" cy="404" r="5"/><circle cx="366" cy="404" r="5"/><circle cx="388" cy="404" r="5"/><circle cx="410" cy="404" r="5"/><circle cx="256" cy="424" r="5"/><circle cx="278" cy="424" r="5"/><circle cx="300" cy="424" r="5"/><circle cx="322" cy="424" r="5"/><circle cx="344" cy="424" r="5"/><circle cx="366" cy="424" r="5"/><circle cx="388" cy="424" r="5"/><circle cx="410" cy="424" r="5"/></g>
+    <text x="330" y="394" text-anchor="middle" fill="#e9d5ff" font-size="12" font-weight="700">PLATEA</text>
+
+    <!-- Mesas -->
+    <g>
+      <circle cx="500" cy="410" r="26" fill="#0ea5e9" opacity="0.30" stroke="#38bdf8"/>
+      <g fill="#bae6fd"><circle cx="500" cy="388" r="4"/><circle cx="522" cy="410" r="4"/><circle cx="500" cy="432" r="4"/><circle cx="478" cy="410" r="4"/></g>
+      <circle cx="580" cy="410" r="26" fill="#0ea5e9" opacity="0.30" stroke="#38bdf8"/>
+      <g fill="#bae6fd"><circle cx="580" cy="388" r="4"/><circle cx="602" cy="410" r="4"/><circle cx="580" cy="432" r="4"/><circle cx="558" cy="410" r="4"/></g>
+    </g>
+
+    <!-- Salidas / servicios -->
+    <rect x="60" y="26" width="90" height="52" rx="10" fill="#dc2626" opacity="0.85"/>
+    <text x="105" y="58" text-anchor="middle" fill="#fff" font-size="13" font-weight="800">SALIDA</text>
+    <rect x="750" y="26" width="90" height="52" rx="10" fill="#dc2626" opacity="0.85"/>
+    <text x="795" y="58" text-anchor="middle" fill="#fff" font-size="13" font-weight="800">SALIDA</text>
+    <rect x="660" y="378" width="90" height="70" rx="10" fill="#334155"/>
+    <text x="705" y="418" text-anchor="middle" fill="#cbd5e1" font-size="13" font-weight="700">BAÑOS</text>
+  </g>
+</svg>
