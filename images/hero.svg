@@ -1,0 +1,107 @@
+<svg viewBox="0 0 1200 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ticketealo — entradas para los mejores eventos">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="0.55" stop-color="#111a3d"/>
+      <stop offset="1" stop-color="#0B1220"/>
+    </linearGradient>
+    <linearGradient id="ticket" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3B82F6"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="word" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c7d2fe"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="55"/>
+    </filter>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <clipPath id="round"><rect x="0" y="0" width="1200" height="430" rx="26"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="430" fill="url(#bg)"/>
+
+    <!-- Orbes de luz (glows tipo escenario) -->
+    <g opacity="0.55">
+      <circle cx="230" cy="70" r="150" fill="#7C3AED" filter="url(#glow)"/>
+      <circle cx="1000" cy="60" r="150" fill="#22D3EE" filter="url(#glow)" opacity="0.8"/>
+      <circle cx="760" cy="360" r="170" fill="#2563EB" filter="url(#glow)"/>
+      <circle cx="1080" cy="330" r="90" fill="#F59E0B" filter="url(#glow)" opacity="0.5"/>
+    </g>
+
+    <!-- Haces de luz desde arriba -->
+    <g opacity="0.10" fill="#ffffff">
+      <polygon points="150,-20 250,-20 470,470 30,470"/>
+      <polygon points="980,-20 1060,-20 1180,470 830,470"/>
+    </g>
+
+    <!-- Ecualizador sutil (energía / música) -->
+    <g opacity="0.18" fill="#8ea2ff">
+      <rect x="70" y="372" width="10" height="26" rx="4"/>
+      <rect x="90" y="356" width="10" height="42" rx="4"/>
+      <rect x="110" y="384" width="10" height="14" rx="4"/>
+      <rect x="130" y="344" width="10" height="54" rx="4"/>
+      <rect x="150" y="366" width="10" height="32" rx="4"/>
+      <rect x="170" y="380" width="10" height="18" rx="4"/>
+    </g>
+
+    <!-- Marca -->
+    <g transform="translate(84,116)">
+      <rect x="0" y="0" width="58" height="58" rx="15" fill="url(#ticket)"/>
+      <path d="M16 20 h26 M29 20 v25" stroke="#ffffff" stroke-width="5.5" stroke-linecap="round"/>
+      <text x="78" y="30" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="46" font-weight="800" fill="url(#word)">Ticketealo</text>
+      <text x="80" y="66" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="21" font-weight="500" fill="#9fb0d9">Entradas para los mejores eventos</text>
+    </g>
+
+    <!-- Chips de valor -->
+    <g font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="600" fill="#dbe4ff">
+      <g transform="translate(84,250)">
+        <rect x="0" y="0" width="168" height="40" rx="20" fill="#ffffff" opacity="0.08"/>
+        <circle cx="24" cy="20" r="6" fill="#22D3EE"/>
+        <text x="42" y="26">Entrada con QR</text>
+      </g>
+      <g transform="translate(264,250)">
+        <rect x="0" y="0" width="150" height="40" rx="20" fill="#ffffff" opacity="0.08"/>
+        <circle cx="24" cy="20" r="6" fill="#F59E0B"/>
+        <text x="42" y="26">Pago seguro</text>
+      </g>
+      <g transform="translate(424,250)">
+        <rect x="0" y="0" width="176" height="40" rx="20" fill="#ffffff" opacity="0.08"/>
+        <circle cx="24" cy="20" r="6" fill="#7C3AED"/>
+        <text x="42" y="26">Venta por asiento</text>
+      </g>
+    </g>
+
+    <!-- Ticket con QR (foco) -->
+    <g transform="translate(815,118) rotate(-7)">
+      <rect x="0" y="0" width="300" height="190" rx="22" fill="#ffffff"/>
+      <path d="M0 22 A22 22 0 0 1 22 0 H278 A22 22 0 0 1 300 22 V52 H0 Z" fill="url(#ticket)"/>
+      <text x="20" y="34" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="18" font-weight="700" fill="#ffffff">ENTRADA · VIP</text>
+      <line x1="16" y1="120" x2="284" y2="120" stroke="#e5e9f5" stroke-width="2" stroke-dasharray="6 7"/>
+      <g transform="translate(22,72)">
+        <rect x="0" y="0" width="76" height="76" rx="8" fill="#eef2ff"/>
+        <g transform="translate(10,10)" fill="#0f172a">
+          <rect x="0" y="0" width="18" height="18"/><rect x="38" y="0" width="18" height="18"/>
+          <rect x="0" y="38" width="18" height="18"/><rect x="46" y="46" width="10" height="10"/>
+          <rect x="24" y="6" width="8" height="8"/><rect x="24" y="26" width="8" height="8"/>
+          <rect x="6" y="24" width="8" height="8"/><rect x="40" y="24" width="8" height="8"/>
+        </g>
+      </g>
+      <text x="118" y="96" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="500" fill="#64748b">Fila A · Asiento 12</text>
+      <text x="118" y="132" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="30" font-weight="800" fill="#1D4ED8">$ 12.000</text>
+      <text x="118" y="160" font-family="Inter, ui-sans-serif, system-ui, sans-serif" font-size="13" font-weight="600" fill="#7C3AED">Escaneá y entrá</text>
+    </g>
+
+    <!-- destellos -->
+    <g fill="#ffffff">
+      <circle cx="640" cy="90" r="2.5" opacity="0.8"/>
+      <circle cx="700" cy="150" r="1.8" opacity="0.6"/>
+      <circle cx="590" cy="205" r="2" opacity="0.5"/>
+      <circle cx="1150" cy="150" r="2.2" opacity="0.7"/>
+    </g>
+  </g>
+</svg>

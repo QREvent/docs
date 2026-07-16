@@ -8,16 +8,10 @@
     "dark": "#1D4ED8"
   },
   "favicon": "/favicon.svg",
+  "background": {
+    "decoration": "gradient"
+  },
   "navigation": {
-    "pages": [
-      {
-        "group": "Getting Started",
-        "pages": [
-          "index",
-          "quickstart"
-        ]
-      }
-    ],
     "groups": [
       {
         "group": "Primeros pasos",
