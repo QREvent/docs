@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "Ticketealo",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#2563EB",
+    "light": "#60A5FA",
+    "dark": "#1D4ED8"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -18,36 +18,114 @@
         ]
       }
     ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
+    "groups": [
+      {
+        "group": "Primeros pasos",
+        "icon": "rocket",
+        "pages": [
+          "index",
+          "primeros-pasos/crear-cuenta",
+          "primeros-pasos/passkeys",
+          "primeros-pasos/ser-productor",
+          "primeros-pasos/perfil"
+        ]
+      },
+      {
+        "group": "Crear un evento",
+        "icon": "calendar-plus",
+        "pages": [
+          "eventos/crear-evento",
+          "eventos/estado-y-visibilidad",
+          "eventos/editar",
+          "eventos/funciones",
+          "eventos/clonar-eliminar"
+        ]
+      },
+      {
+        "group": "Entradas y precios",
+        "icon": "ticket",
+        "pages": [
+          "entradas/tipos-de-entrada",
+          "entradas/combos-y-extras",
+          "entradas/cortesias",
+          "entradas/preventa"
+        ]
+      },
+      {
+        "group": "Plano del venue",
+        "icon": "map",
+        "pages": [
+          "plano/introduccion",
+          "plano/editor",
+          "plano/areas-de-servicio",
+          "plano/niveles",
+          "plano/compra-por-asiento",
+          "plano/exportar-instagram"
+        ]
+      },
+      {
+        "group": "Cobros y pagos",
+        "icon": "wallet",
+        "pages": [
+          "cobros/modelos-de-cobro",
+          "cobros/creditos",
+          "cobros/conectar-mercadopago",
+          "cobros/reparto-de-ventas",
+          "cobros/transferencia-bancaria"
+        ]
+      },
+      {
+        "group": "Canales de venta y difusión",
+        "icon": "bullhorn",
+        "pages": [
+          "difusion/link-del-evento",
+          "difusion/vendedores",
+          "difusion/line-up",
+          "difusion/sponsors",
+          "difusion/destacados"
+        ]
+      },
+      {
+        "group": "Día del evento",
+        "icon": "calendar-check",
+        "pages": [
+          "dia-del-evento/control-de-acceso",
+          "dia-del-evento/barra-y-consumibles",
+          "dia-del-evento/saldo-cashless",
+          "dia-del-evento/invita-un-trago",
+          "dia-del-evento/drops-en-vivo"
+        ]
+      },
+      {
+        "group": "Extras",
+        "icon": "sparkles",
+        "pages": [
+          "extras/cupones-de-descuento",
+          "extras/reventa",
+          "extras/estadisticas-y-reportes"
+        ]
+      },
+      {
+        "group": "Para compradores",
+        "icon": "users",
+        "pages": [
+          "compradores/comprar",
+          "compradores/mis-entradas",
+          "compradores/transferir-o-revender",
+          "compradores/saldo-y-consumos"
+        ]
+      }
+    ]
   },
   "logo": {
     "light": "/logo/light.svg",
     "dark": "/logo/dark.svg"
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
-      }
-    ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Ir a Ticketealo",
+      "href": "https://ticketealo.app"
     }
   },
   "contextual": {
@@ -64,9 +142,8 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "website": "https://ticketealo.app"
     }
-  }
+  },
+  "description": "Documentación de Ticketealo: creá eventos, vendé entradas con QR y gestioná ventas, accesos y cobros desde un solo lugar."
 }
