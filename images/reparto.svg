@@ -1,0 +1,43 @@
+<svg viewBox="0 0 760 260" xmlns="http://www.w3.org/2000/svg" font-family="Inter, ui-sans-serif, system-ui, sans-serif" role="img" aria-label="Reparto: cada venta va a la cuenta más atrasada respecto a su objetivo">
+  <defs><clipPath id="rp"><rect width="760" height="260" rx="18"/></clipPath></defs>
+  <g clip-path="url(#rp)">
+    <rect width="760" height="260" fill="#0f1629"/>
+
+    <!-- Nueva venta -->
+    <g transform="translate(28,96)">
+      <rect width="150" height="66" rx="14" fill="#132449" stroke="#3b82f6"/>
+      <text x="75" y="30" text-anchor="middle" fill="#93c5fd" font-size="13" font-weight="600">Nueva venta</text>
+      <text x="75" y="52" text-anchor="middle" fill="#ffffff" font-size="20" font-weight="800">$ 8.000</text>
+    </g>
+    <path d="M182 129 h44" stroke="#22d3ee" stroke-width="3" fill="none" marker-end="url(#ar)"/>
+    <defs><marker id="ar" markerWidth="10" markerHeight="10" refX="6" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#22d3ee"/></marker></defs>
+
+    <!-- Cuentas -->
+    <g transform="translate(248,34)">
+      <!-- Cuenta 1 -->
+      <text x="0" y="14" fill="#cdd9f5" font-size="14" font-weight="700">Cuenta 1 · objetivo 50%</text>
+      <rect x="0" y="24" width="470" height="16" rx="8" fill="#1f2b4d"/>
+      <rect x="0" y="24" width="216" height="16" rx="8" fill="#3b82f6"/>
+      <line x1="235" y1="20" x2="235" y2="44" stroke="#93c5fd" stroke-width="2" stroke-dasharray="3 3"/>
+
+      <!-- Cuenta 2 (más atrasada) -->
+      <g transform="translate(0,66)">
+        <text x="0" y="14" fill="#ffffff" font-size="14" font-weight="800">Cuenta 2 · objetivo 30%</text>
+        <rect x="0" y="24" width="470" height="16" rx="8" fill="#1f2b4d"/>
+        <rect x="0" y="24" width="94" height="16" rx="8" fill="#22d3ee"/>
+        <line x1="141" y1="20" x2="141" y2="44" stroke="#67e8f9" stroke-width="2" stroke-dasharray="3 3"/>
+        <g transform="translate(486,20)"><text fill="#22d3ee" font-size="13" font-weight="800">← va acá</text><text y="16" fill="#7f9ac0" font-size="11">la más atrasada</text></g>
+      </g>
+
+      <!-- Cuenta 3 -->
+      <g transform="translate(0,132)">
+        <text x="0" y="14" fill="#cdd9f5" font-size="14" font-weight="700">Cuenta 3 · objetivo 20%</text>
+        <rect x="0" y="24" width="470" height="16" rx="8" fill="#1f2b4d"/>
+        <rect x="0" y="24" width="82" height="16" rx="8" fill="#7c3aed"/>
+        <line x1="94" y1="20" x2="94" y2="44" stroke="#c4b5fd" stroke-width="2" stroke-dasharray="3 3"/>
+      </g>
+    </g>
+
+    <text x="248" y="250" fill="#7f9ac0" font-size="12">Barra = lo acumulado · línea punteada = objetivo. Con las ventas, el reparto converge.</text>
+  </g>
+</svg>
