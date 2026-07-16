@@ -1,0 +1,19 @@
+---
+title: "Reparto de ventas"
+description: "Repartí la recaudación de un evento entre varias cuentas de MercadoPago."
+icon: "code-branch"
+---
+
+Si un evento es **entre socios**, podés **repartir** la recaudación entre varias de tus cuentas de MercadoPago, automáticamente.
+
+## Configurar el reparto
+
+Para un evento, elegís qué **cuentas** participan y con qué **peso** (porcentaje) cada una. Cada cuenta tiene que estar **conectada y activa**, y no se puede repetir.
+
+## Cómo se reparte
+
+Ticketealo rutea **cada venta a una sola cuenta** (no fracciona un pago), y elige **la cuenta más atrasada respecto a su objetivo**: compara lo que lleva recaudado cada una contra su porcentaje configurado y le manda la próxima venta a la que está más “en deuda”. Con el correr de las ventas, el reparto **converge** a los porcentajes que definiste.
+
+<Note>
+  Si no configurás reparto, todo va a tu **cuenta predeterminada**.
+</Note>
