@@ -108,8 +108,23 @@
           "compradores/transferir-o-revender",
           "compradores/saldo-y-consumos"
         ]
+      },
+      {
+        "group": "Preguntas frecuentes",
+        "icon": "circle-question",
+        "pages": [
+          "preguntas-frecuentes/productores",
+          "preguntas-frecuentes/compradores"
+        ]
       }
     ]
+  },
+  "seo": {
+    "metatags": {
+      "og:site_name": "Ticketealo",
+      "og:type": "website"
+    },
+    "indexing": "all"
   },
   "logo": {
     "light": "/logo/light.svg",
